@@ -8,9 +8,6 @@ $(function(){
     $( "#nav-elements" ).toggleClass("show");
   });
   $("#about-link").on('click', function(){
-    // $('.about-j-modal').fadeIn("slow");
-    // $('.about-j-modal').css('visibility', 'visible').fadeIn("slow", "swing");
-    // $('.about-j-modal').fadeIn("slow", "swing");
     $('.about-j-modal').css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 2000);
   });
 
@@ -19,7 +16,7 @@ $(function(){
   $(window).scroll(function() {
     console.log($(window).scrollTop());
 
-    if( $(window).scrollTop() > 2700){
+    if( $(window).scrollTop() > 1400){
       console.log("scrolling");
       $('.about-j-modal').css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 2000);
     };
