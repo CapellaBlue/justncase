@@ -1,6 +1,8 @@
 # JustNCase
 Profession web site for DJ, JustNCase
 
+[Link to Demo](capellaBlue.github.io/AllProjects/JustNCase)
+
 JQuery for funcitionality.
 Simple layout for a static site holding photos and music for an emerging artist.
 
